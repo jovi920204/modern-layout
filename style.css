@@ -1,0 +1,40 @@
+body{
+    font-family: sans-serif;
+    background-color: hsl(53deg 97% 53%);;
+}
+.blog, .block{
+    background-color: white;
+}
+.blog{
+    width: 200px;
+    height: 70px;
+    margin: 100px 0;
+    position: relative;
+    left: calc(50% - 100px);
+    top: calc(50% - 35px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    width: calc(1000px / 3);
+    height: 245px;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.up, .down{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1:not(.blog-text){
+    margin: 0;
+}
+.text{
+    margin: 25px;
+}
